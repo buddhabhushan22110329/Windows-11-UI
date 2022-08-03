@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+.tbar{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    height: 1.1cm;
+}
+
+.rightclass{
+    position: absolute;
+    bottom: 0;
+    margin-left: 33cm;
+    height: 1.2cm;
+    /* width: 6cm; */
+}
+
+#tbarright{
+    margin-left: 0.7cm;
+}
+
+.smenuclass{
+    position: absolute;
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    width: 100%;
+    /* margin: 0.2cm; */
+    margin-top: 46%;
+    transition-duration: 0.3s;
+    /* transition-property: ease-out; */
+    /* transition-property:; */
+}
